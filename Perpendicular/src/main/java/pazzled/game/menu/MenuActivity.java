@@ -1,8 +1,9 @@
-package com.mycompany.myapp;
+package pazzled.game.menu;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import pazzled.game.home.R;
 
 public class MenuActivity extends Activity {
 
@@ -11,7 +12,6 @@ public class MenuActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

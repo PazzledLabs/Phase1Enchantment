@@ -13,6 +13,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
         <activity
             android:name="pazzled.game.home.HomeActivity"
             android:configChanges="orientation|keyboardHidden|keyboard"
@@ -20,14 +21,15 @@
             android:theme="@style/HomeTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name="pazzled.game.home.MenuActivity"
+            android:name="pazzled.game.menu.MenuActivity"
             android:label="@string/title_activity_menu" >
         </activity>
+
     </application>
 
 </manifest>
