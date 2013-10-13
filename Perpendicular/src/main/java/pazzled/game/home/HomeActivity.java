@@ -62,6 +62,7 @@ public class HomeActivity extends Activity implements AnimationListener {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.home, menu);
+        Log.d(ACTIVITY_SERVICE, "On Create Options Menu");
         return true;
     }
 
