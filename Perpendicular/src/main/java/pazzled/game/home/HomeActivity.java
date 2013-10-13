@@ -71,7 +71,7 @@ public class HomeActivity extends Activity implements AnimationListener {
     protected void onStart() {
         super.onStart();
         Log.d(ACTIVITY_SERVICE, "On Start");
-        // The activity is about to become visible.
+        // The activity is about to become "visible".
     }
 
     @Override
